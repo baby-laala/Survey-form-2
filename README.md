@@ -1,6 +1,6 @@
 # Pre-Academics Survey Form
 
-![Survey Form Banner](./screenshot1.jpeg)
+![Survey Form Banner](./cat.jpg)
 
 📝 This repository contains a pre-academics survey form designed to collect valuable information from participants. The form incorporates a variety of interactive elements such as textboxes, radio buttons, checkboxes, textarea, and selection fields to ensure comprehensive data gathering.
 
