@@ -1,6 +1,6 @@
 # Pre-Academics Survey Form
 
-![Survey Form Banner](./Web capture_12-7-2023_202421_baby-laala.github.io.jpeg)
+![Survey Form Banner](./screenshot1.jpeg)
 
 📝 This repository contains a pre-academics survey form designed to collect valuable information from participants. The form incorporates a variety of interactive elements such as textboxes, radio buttons, checkboxes, textarea, and selection fields to ensure comprehensive data gathering.
 
@@ -16,10 +16,10 @@
 
 Here are two screenshots showcasing the design and layout of the survey form:
 
-![Screenshot 1](/images/screenshot1.png)
+![Screenshot 1](./screenshot1.jpeg)
 *Screenshot 1: An example section of the Pre-Academics Survey Form.*
 
-![Screenshot 2](/images/screenshot2.png)
+![Screenshot 2](./screenshot2.jpeg)
 *Screenshot 2: Another section of the Pre-Academics Survey Form.*
 
 ## Demo
