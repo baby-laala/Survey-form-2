@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css" class="rel">
+</head>
+<body>
+    <h1 id="title">Pre-Academics Survey</h1>
+    
+
+    <form  id="survey-form">
+
+        <div class="form-div" >
+            <label for="name" style="margin: 10px;">Student Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+        </div>
+
+        <div class="form-div">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="Enter your email">
+        </div>
+
+        <div class="form-div">
+            <label for="age">Indexno (optional)</label>
+            <input type="number" name="Batch" id="age" placeholder="Age">
+        </div>        
+
+        <div class="form-div">
+            <label for="dropdown-selector-role">Which option best describes the sessions?</label>
+            <select name="dropdown-selector-role" id="dropdown-selector-role" placeholder="Select current role">
+                <option value="">Select your option </option>
+                <option value="Student">Excellent</option>
+                <option value="Job">Good</option>
+                <option value="Learner">Average</option>
+                <option value="Prefor not to say">not bad</option>
+                <option value="Other">Prefor not to say</option>
+            </select>
+        </div>
+
+        
+            <label for="radio-selector" class="radio-label">Which degree follower are u</label>
+        <div class="form-radio">
+            <label for="definitely" ><input type="radio" name="recommend" id="definitely" >IT</label>
+            <label for="Maybe" ><input type="radio" name="recommend" id="Maybe" >ITM</label>
+            <label for="Not sure"><input type="radio" name="recommend" id="Not sure" >AI</label>
+        </div>
+
+        <div class="form-div">
+            <label for="dropdown-selector-role2">What is your favorite feature of preacademics?</label>
+            <select name="dropdown-selector-role2" id="dropdown-selector-role2" placeholder="Select an option">
+                <option value="">Challenges</option>
+                <option value="Student">Projects</option>
+                <option value="Job">Sessions</option>
+                <option value="Learner">Sport Event</option>
+            </select>
+        </div>
+
+        <div class="form-check">
+
+            <label for="checkbox-selector" class="radio-label">What would you like to see improved? (Check all that apply)</label><br>
+
+            <div class="div-checkbox">
+                <label for="Front-end Projects"><input type="checkbox" name="improved" id="Front-end Projects"  >Session</label><br>
+            </div>
+            <div class="div-checkbox">
+                <label for="Back-end Projects"><input type="checkbox" name="improved" id="Back-end Projects"  >Project offerings</label><br>
+            </div>
+            <div class="div-checkbox">
+                <label for="Data Visualization"><input type="checkbox" name="improved" id="Data Visualization"  >physical events</label><br>
+            </div>
+            <div class="div-checkbox">
+                <label for="Challenges"><input type="checkbox" name="improved" id="Challenges"  >Challenges</label><br>
+            </div>
+            <div class="div-checkbox">
+                <label for="Open Source Community"><input type="checkbox" name="improved" id="Open Source Community"  >daily Challenges</label><br>
+            </div>
+            
+                        
+        </div>
+
+        <div class="form-div">
+            <label  for="text-area">Any comments or suggestions?</label>
+            <textarea name="suggestions?" id="text-area" placeholder="Enter your comment here..." cols="71" rows="6"></textarea>
+        </div>
+
+        <div class="form-div">
+
+            <input type="submit" value="Submit">
+
+        </div>
+
+    </form>
+    <p id="description">Thank you for taking the time to help us improve </p>
+    <footer>
+        <div class="footerbottom">
+            <p>Copyright &copy;2023 Designed by <span class="designer">Laavanjan</span></p>
+        </div>
+    </footer>
+</body>
+</html>
